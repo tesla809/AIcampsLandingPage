@@ -1,0 +1,176 @@
+/*
+to do
+-li hover to gold problem
+-when loading, keep black on bottom
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+
+/* Header */
+.jumbotron {
+  height: 50%;
+  text-align: center;
+  background-color: white;
+}
+
+.jumbotron.container {
+	position: relative;
+	top: 10px;
+}
+
+#particles-js{
+	z-index: 1;
+}
+
+/* test 
+
+#particle-flag{
+	position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+*/
+
+
+.jumbotron h1 {
+	z-index: 2;
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: -25%;
+}
+
+p#day {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top:-30px;
+}
+
+p#date {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -30px;
+}
+
+p#at-UN{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -30px;
+}
+
+@media (min-width:850px) {
+	.jumbotron h1 {
+		font-size: 120px;
+	}
+}
+
+.jumbotron p {
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+a:hover{
+	text-decoration: none;
+	color: gold;
+}
+
+a:active{
+	text-decoration: none;
+	color: gold;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+.btn {
+  color: black;
+  position: relative;
+  text-align: center;
+}
+
+.btn:hover {
+	color: gold;
+  	font-weight: 500;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+/* Nav */
+.nav {
+  background-color: black;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 30px 0;
+	text-align: center;
+  	display: flex;
+  	justify-content:space-between;
+}
+
+.nav ul li {
+  display: inline-block;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav ul li:hover {
+  color: gold;
+  font-weight: 400;
+}
+
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+
+/* Footer */
+.footer { 
+	font-size: 14px;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+
+}
