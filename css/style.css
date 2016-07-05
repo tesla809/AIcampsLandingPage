@@ -153,6 +153,14 @@ a:visited{
 	margin: 80px auto;
 }
 
+#location-map {
+	float: right;
+}
+
+#directions {
+	float: left;
+}
+
 /* Footer */
 .footer { 
 	font-size: 14px;
